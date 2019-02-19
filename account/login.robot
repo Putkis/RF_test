@@ -3,7 +3,7 @@
 *** Settings ***
 Documentation    Tests relating login and logout
 Library    SeleniumLibrary
-Suite Setup    Open Browser    url=https://www.ultimateqa.com/    browser=chrome    remote_url=http://localhost:4444/wd/hub 
+Suite Setup    Open Browser    url=https://www.ultimateqa.com/    browser=chrome    remote_url=http://172.17.0.3:4445/wd/hub
 Suite Teardown    Close Browser
 
 
