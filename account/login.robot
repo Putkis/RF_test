@@ -44,5 +44,5 @@ Failing Test
     Navigate To Page With Link    Sign
     Enter Credentials    ${Email_address}    ${password}
     Click Button    id=btn-signin
-    Page Should Contain    ONNISTUMINEN
+    Page Should Contain    Invalid
     Sleep    5
