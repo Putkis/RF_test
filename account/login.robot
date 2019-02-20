@@ -38,9 +38,6 @@ Successful Login
     Sleep    5
 
 Failing Test
-    *** Test Cases ***
-
-Successful Login
     Maximize Browser Window
     Wait Until Page Contains    View All Course
     Navigate To Page With Link    Course
