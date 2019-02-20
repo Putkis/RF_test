@@ -36,3 +36,16 @@ Successful Login
     Click Button    id=btn-signin
     Page Should Contain    Invalid
     Sleep    5
+
+Failing Test
+    *** Test Cases ***
+
+Successful Login
+    Maximize Browser Window
+    Wait Until Page Contains    View All Course
+    Navigate To Page With Link    Course
+    Navigate To Page With Link    Sign
+    Enter Credentials    ${Email_address}    ${password}
+    Click Button    id=btn-signin
+    Page Should Contain    ONNISTUMINEN
+    Sleep    5
