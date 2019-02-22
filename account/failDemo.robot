@@ -3,7 +3,7 @@
 *** Settings ***
 Documentation    Tests relating login and logout
 Library    SeleniumLibrary
-Test Setup    Open Browser    url=https://www.ultimateqa.com/    browser=chrome    remote_url=http://172.17.0.3:4445/wd/hub
+Test Setup    Open Browser    url=https://www.ultimateqa.com/    browser=chrome   
 Test Teardown    Close Browser
 
 
